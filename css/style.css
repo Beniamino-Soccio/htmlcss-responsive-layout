@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 /* Generics */
@@ -20,17 +21,19 @@ header{
 
 h1{
     font-family: 'Nerko One', cursive;
-    font-size: 60px;
+    font-size: 56px;
     color: #FF9614;
     line-height: 100px;
     text-align: center;
     text-shadow: 1px 1px 3px #000000 ;
+    font-weight: 900;
 }
 
 h2{
     color: #4E3969;
     font-size: 40px;
     display: inline-block;
+    font-weight: 700;
 }
 main{
     margin: 30px 0;
@@ -71,7 +74,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /*introduction recipe*/
@@ -89,7 +92,7 @@ ul{
 
 .category{
     color: gray;
-    margin-bottom: 20px;
+    margin: 20px 0;
     font-size: 24px;
 }
 
@@ -153,7 +156,7 @@ li i{
 }
 
 /*SOCIAL*/
-.fainstagram, .fa-pinterest, .fa-youtube{
+.fa-instagram, .fa-pinterest, .fa-youtube{
     color: red;
 }
 .fa-twitter{
@@ -178,6 +181,7 @@ li i{
     background-color: #fff;
     padding: 15px 25px;
     border-radius: 30px;
+    box-shadow: 0 3px 5px #c7c6c6;
 }
 
 /*adv*/

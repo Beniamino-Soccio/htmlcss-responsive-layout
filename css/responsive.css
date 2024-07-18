@@ -1,16 +1,28 @@
 /*tablet responsive 768px*/
 @media screen and (min-width: 769px){
+    *{
+        font-size: 18px;
+    }
     /*header*/
     h1{
         text-align: left;
         padding-left: 30px;
-        font-size: 64px;
+        font-size: 60px;
     }
 
     /*recipe*/
 
     .container{
         padding: 0 60px;
+    }
+
+    h2{
+        font-weight: 800;
+    }
+
+    .category{
+        font-size: 20px;
+        margin-top: 60px;
     }
 
     .name-recipe h2:last-of-type{
@@ -47,13 +59,26 @@
 
 /*desktop responsive 992px */
 @media screen and (min-width: 993px){
+    *{
+        font-size: 16px;
+    }
     /*header*/
     h1{
-        font-size: 68px;
+        font-size: 64px;
     }
 
+    h2{
+        font-weight: 800;
+        font-size: 54px;
+    }
+    .container{
+        padding: 0;
+    }
     /*recipe*/
 
+    .category{
+        font-size: 16px;
+    }
     iframe{
         max-width: 70%;
     }
