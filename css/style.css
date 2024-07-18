@@ -35,6 +35,10 @@ h2{
 main{
     margin: 30px 0;
 }
+
+ul{
+    list-style-type: none;
+}
 /* Utils */
 
 .container{
@@ -136,8 +140,7 @@ iframe{
 }
 
 /*lista ingredienti*/
-ul{
-    list-style-type: none;
+.ingredients ul{
     padding:  0 30px;
 }
 
@@ -147,4 +150,32 @@ ul{
 
 li i{
     color: #FF9614;
+}
+
+/*SOCIAL*/
+.fainstagram, .fa-pinterest, .fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: #009EFF;
+}
+.fa-facebook{
+    color: #1A77F3;
+}
+
+.social strong{
+    display: none;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.social a{
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
 }
