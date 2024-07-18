@@ -1,15 +1,53 @@
 /*tablet responsive 768px*/
 @media screen and (min-width: 769px){
+    /*header*/
     h1{
         text-align: left;
         padding-left: 30px;
         font-size: 64px;
     }
+
+    /*recipe*/
+
+    .container{
+        padding: 0 60px;
+    }
+
+    .name-recipe h2:last-of-type{
+        display: inline-block;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .recipe li{
+        flex-basis: calc(100% / 3);
+        margin: 20px 0;
+    }
+
+
 }
 
 /*desktop responsive 992px */
 @media screen and (min-width: 993px){
+    /*header*/
     h1{
         font-size: 68px;
+    }
+
+    /*recipe*/
+
+    iframe{
+        max-width: 70%;
+    }
+    .ingredients{
+        max-width: 30%;
+    }
+
+    ul{
+        display: block;
     }
 }
