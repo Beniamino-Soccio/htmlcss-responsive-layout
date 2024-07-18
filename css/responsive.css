@@ -35,6 +35,11 @@
         border-radius: 40px;
     }
 
+    /*adv*/
+    .adv{
+        display: block;
+        max-width: 100%;
+    }
 
 
 

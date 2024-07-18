@@ -179,3 +179,8 @@ li i{
     padding: 15px 25px;
     border-radius: 30px;
 }
+
+/*adv*/
+.adv{
+    display: none;
+}
