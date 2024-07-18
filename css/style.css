@@ -10,17 +10,21 @@
 
 body{
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
-    background-color: black;
+    background-color: #F6F5F3;
 }
 
 header{
     height: 100px;
-    /*background-color: #fff;*/
+    background-color: #fff;
 }
 
 h1{
     font-family: 'Nerko One', cursive;
-    font-size: 20px;
+    font-size: 60px;
+    color: #FF9614;
+    line-height: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000 ;
 }
 /* Utils */
 

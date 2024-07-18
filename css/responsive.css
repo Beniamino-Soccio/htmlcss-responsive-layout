@@ -1,9 +1,15 @@
 /*tablet responsive 768px*/
 @media screen and (min-width: 769px){
-
+    h1{
+        text-align: left;
+        padding-left: 30px;
+        font-size: 64px;
+    }
 }
 
 /*desktop responsive 992px */
 @media screen and (min-width: 993px){
-
+    h1{
+        font-size: 68px;
+    }
 }
